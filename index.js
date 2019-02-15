@@ -7,9 +7,9 @@ const
   { Marshaller  }     = require('@aws/dynamodb-auto-marshaller'),
   marshaler       = new Marshaller(),
   { PluginError } = gutil,
-  package = require('./package.json')
+  pckg = require('./package.json')
 ;
-const PLUGIN_NAME = package.name;
+const PLUGIN_NAME = pckg.name;
 
 module.exports = gulpDynamoEvents;
 
