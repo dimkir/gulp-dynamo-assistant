@@ -1,0 +1,10 @@
+yarn-error.log
+node_modules/
+.tmp/
+
+*.0.*
+*.1.*
+*.2.*
+*.3.*
+*.4.*
+
